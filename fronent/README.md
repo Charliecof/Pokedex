@@ -1,3 +1,16 @@
+#PokeDex REact
+This project is made with react, it uses the poke-api for the data
+[PokeApi](https://pokeapi.co/api/v2/)
+
+#Instalation
+Before running the app make sure you have node installed and run: 
+
+### `npm install`
+
+then
+
+### `npm start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
