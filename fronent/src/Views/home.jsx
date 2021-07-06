@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Nav from "../components/Nav";
 import PokeCard from "../components/PokeCard";
 import axios from "axios";
+import Pagination from "../components/Pagination";
 
 function Home(props) {
     const [pokemones,setPokemones] = useState([]);
@@ -50,6 +51,7 @@ function Home(props) {
                         }
                     })}
                 </div>
+                <Pagination buttonSize={3} limit={100}/>
                 <button className="button" onClick={()=>{ if (page!=0) setPage(page-10)}}>Back</button>
                 <button className="button" onClick={()=>{setPage(page+10)}}>Next</button>
             </div>
